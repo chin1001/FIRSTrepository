@@ -1,4 +1,4 @@
 # Computer Science homework
-##
+## 奇偶數判斷
 
-[F1006040]f1006040.aries.dyu.edu.tw/odd_even.html
+**輸入正整數**
