@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1006040</title>
+</head>
+<script>
+var text;
+
+function Textrecognition()
+{
+    var nWNumber=document.getElementById('wnum').value;
+
+    if(nWNumber==0)
+    text="0";
+    else if(nWNumber<0)
+    text="輸入錯誤";
+    else if(nWNumber%2==0)
+    text="偶數";
+    else if(nWNumber%2==1)
+    text="奇數";
+    else
+    text="輸入錯誤";
+
+    ShowResult();
+}
+
+function ShowResult()
+{
+    alert(text);
+    document.grtElementById("result").innerHTML=text;
+}
+</script>
+<body>
+<label for="wnum">Please input a whole number</label>
+<input type="text" id="wnum" name="wumn"><br><br>
+<button type="button" onclick="Onsubmit();">Submit</button>
+
+<p id="result">display result here</p>
+</body>
+
+</html>
