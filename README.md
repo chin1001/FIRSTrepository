@@ -1,4 +1,4 @@
-# computer science homework
-This is my a new repository!
+# 奇數或偶數之判斷
+## Computer Science homework
 
-**
+>
